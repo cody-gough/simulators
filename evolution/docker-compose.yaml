@@ -1,0 +1,10 @@
+version: '3.9'
+
+networks:
+  evolution-simulator:
+
+services:
+  evolution-simulator:
+    networks:
+      - evolution-simulator
+    container_name: evolution-simulator
